@@ -16,12 +16,12 @@ The front end is built using React framework. Views are styled using sass which 
 <!-- ### Optimizations -->
 
 ### How to run:
-1. Create an .env file under backend/config
-1.a. Add port = 'port of your choice here'
-1.b. Add your databse string: DB_URL = 'your db connection string here'
-2.On terminal inside root type ``` npm i ```
-3. On terminal inside root/backend type ```npm i```
-4. Now go back to root and type ```npm run dev```
+1. Create an .env file under backend/config. Inside it,
+2. Add ```port = 'port of your choice here'```
+3. Add your databse string: ```DB_URL = 'your db connection string here'```
+4. On terminal inside root type ``` npm i ```
+5. On terminal inside root/backend type ```npm i```
+6. Now go back to root and type ```npm run dev```
 
 ### Lessons Learned:
 Implementing authentication
