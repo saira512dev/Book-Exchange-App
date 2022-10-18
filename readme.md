@@ -1,23 +1,28 @@
-### API (Backend For JS Quiz App)
+### Book Exchange App
 
-![image](images/quizapp.png)
+<!-- ![image](images/quizapp.png) -->
 
 
 ### Description :
-This is a collection of APIs used as a backend for my JS Quiz app. These APIs perform GET,POST,PUT and DELETE operations and thus help the admin to add,delete,update & create questions. It also has API to create an entry on scoreboard and get all scores.
+This app intents to make the exchange of books between bibliophiles easier. How many times have you, after reading a book, wished that you could simply exchange it with some other book. This app helps you connect with fellow bibliophiles and help you exchange books that you own.
 
-### Link to project: https://js-quiz-100devs.netlify.app/admin
+<!-- ### Link to project: https://js-quiz-100devs.netlify.app/admin -->
 
 ### How It's Made:
-Tech used: Node.js,Express.js,Mongodb;
+Tech used: React, Node.js,Express.js,Mongodb;
 
-I kept the front end quite simple without any frameworks involved. I.e, using Html, Css & Vanilla Js. Backend is built on Node.js using Express.js framework. Mongodb is the database used and querying the database felt really easy and simple.The app lets users attend JS quiz and test their knowledge. The admin section let's them add new questions to the quiz, edit the existing ones and delete them too. The ones who want to enter their scores on scoreboard can opt for that and they can see where they stand among their fellow devs.
+The front end is built using React framework. Views are styled using sass which makes using css way more easier with it's awesome features like nesting, variables, functions etc.Backend has been done using node.js and it got further simplified using express.js. Cloud database makes things even easier and hence MongoDB atlas has been used.  
 
-### Optimizations
-This could be extended with APIs for questions of laguages other than JS too!
+<!-- ### Optimizations -->
 
-
+### How to run:
+1. Create an .env file under backend/config
+1.a. Add port = 'port of your choice here'
+1.b. Add your databse string: DB_URL = 'your db connection string here'
+2.On terminal inside root type ``` npm i ```
+3. On terminal inside root/backend type ```npm i```
+4. Now go back to root and type ```npm run dev```
 
 ### Lessons Learned:
-Server side validation was a great area of learning for me in this case. I figured that testing APIs with postman & testing them with JS client needn't produce the same errors!
+Implementing authentication
 
