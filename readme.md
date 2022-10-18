@@ -17,7 +17,7 @@ The front end is built using React framework. Views are styled using sass which 
 
 ### How to run:
 1. Create an .env file under backend/config. Inside it,
-2. Add ```port = 'port of your choice here'```
+2. Add ```port = 'your port here'```
 3. Add your databse string: ```DB_URL = 'your db connection string here'```
 4. On terminal inside root type ``` npm i ```
 5. On terminal inside root/backend type ```npm i```
