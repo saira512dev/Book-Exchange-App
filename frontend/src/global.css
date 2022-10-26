@@ -1,0 +1,114 @@
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#root{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  width: 100%;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard {
+  width : 100%;
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.hambergurMenu {
+  background: #1976d2;
+  color: white;
+  
+}
+/* --------FRIENDS---------- */
+.friends {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+
+
+.friends-content {
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.allUsers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.drawerlist::hover {
+  background: grey;
+}
+
+.userCard {
+  width: 300px;
+}
+
+@media (max-width: 650px) {
+  .userCard {
+    width: 170px;
+  }
+}
+
+/* ----------------------- */
+@media (min-width: 651px) {
+  .hambergurMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .hambergurMenuIcon {
+    display: block;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+}
+
+/* @media (max-width: 400px) {
+  .drawerText {
+    display: none;
+  }
+} */

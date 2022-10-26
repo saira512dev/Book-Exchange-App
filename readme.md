@@ -21,7 +21,7 @@ The front end is built using React framework. Views are styled using sass which 
 3. Add your databse string: ```DB_URL = 'your db connection string here'```
 4. On terminal inside root type ``` npm i ```
 5. On terminal inside root/backend type ```npm i```
-6. Now go back to root and type ```npm run dev```
+6. Now go back to root and type ```npm run dev```. The frontend and the backend runs 		      	  concurrently.
 
 ### Lessons Learned:
 Implementing authentication
